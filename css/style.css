@@ -1,0 +1,171 @@
+section {
+  height: 80vh;
+}
+
+nav {
+  width: 100%;
+  top: auto;
+  left: auto;
+  background-color: #ffcb05;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+nav ul li a:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  /* autres propriétés CSS */
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer ul {
+  justify-content: center;
+}
+
+li {
+  margin-left: 2rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  position: relative;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li a::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.img_carrousel {
+  /* Rectangle 9 */
+
+  width: 471px;
+  height: 456px;
+  left: 157px;
+  top: 722px;
+
+  border-radius: 15px;
+}
+.btn-carrousel {
+  background-color: #ffcb05;
+  width: 100px;
+}
+.btn-carrousel:hover {
+  background-color: #ddd;
+  color: black;
+}
+.carrousel {
+  background-color: #ffcb05;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.img-zoom:hover {
+  transform: scale(1.1);
+}
+
+.img-cap {
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.img-rotate.active {
+  transform: rotate(45deg);
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+.rectangle-background {
+  background-color: #ffcb05;
+  border-radius: 15px;
+  width: 200px;
+}
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+
+.index_category {
+  width: 100%;
+  background-color: #ffcb05;
+}
+
+.dark-mode {
+  background-color: #333;
+}
+
+.dark-mode nav {
+  background-color: #666;
+}
+
+.dark-mode nav ul li a:before {
+  background-color: #fff;
+}
+
+.dark-mode li a {
+  color: #fff;
+}
+
+.dark-mode li a:hover {
+  text-decoration: none;
+  color: #ffcb05;
+}
+
+.dark-mode li a::before {
+  background-color: #fff;
+}
+
+.dark-mode .img_carrousel {
+  background-color: #666;
+}
+
+.dark-mode .btn-carrousel {
+  background-color: #ddd;
+}
+
+.dark-mode .carrousel {
+  background-color: #666;
+}
+
+.dark-mode .img-zoom:hover {
+  transform: scale(1.1);
+}
+
+.dark-mode .img-cap {
+  object-fit: cover;
+}
+
+.dark-mode .rectangle-background {
+  background-color: #666;
+}

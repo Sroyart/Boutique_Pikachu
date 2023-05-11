@@ -1,0 +1,35 @@
+.menu-btn {
+  /* width: 4rem;
+  height: 4rem; */
+}
+
+.mobile-nav-toggle {
+  display: none;
+}
+
+.header-nav {
+  display: block;
+}
+
+.nav {
+  display: block;
+}
+
+.burger {
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  width: 4rem;
+}
+
+.burger[data-visible="false"] {
+  height: 0%;
+  overflow: hidden;
+  /* transition: height 1s ease-out; */
+}
+
+.burger[data-visible="true"] {
+  height: 100%;
+  overflow: hidden;
+  transition: height 1s ease-in;
+}
