@@ -31,6 +31,9 @@ $resultats->closeCursor() ;
 }
 </script>
 
+    <link rel="stylesheet" type="text/css" href="css/burger.css">
+
+
 
 <nav>
 <button onclick="toggle_dark_mode()">Toggle dark mode</button>
